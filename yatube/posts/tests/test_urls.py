@@ -87,7 +87,7 @@ class StaticURLTests(TestCase):
             f'/group/{self.group.slug}/': 'posts/group_list.html',
             f'/profile/{self.user}/': 'posts/profile.html',
             f'/posts/{self.post.pk}/': 'posts/post_detail.html',
-            f'/posts/{self.post.pk}/edit/': 'posts/',
+            f'/posts/{self.post.pk}/edit/': 'posts/post_create.html',
             '/create/': 'posts/post_create.html',
             '/lol/': 'core/404.html'
         }
